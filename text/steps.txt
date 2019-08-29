@@ -1,0 +1,23 @@
+
+why stub and Mock:->
+Stub vs Mock Objects in Java testing. As I said both Stub and Mock are dummy object, but more precisely, a Stub is an object
+that simulates real objects with the minimum number of methods required for a test. ...
+Stub object is usually used for state verification, while mock object is mostly used for behaviour verification ...
+
+what stub and Mock:->
+  A fake is a generic term that can be used to describe either a stub or a mock object (handwritten or otherwise),
+  because they both look like the real object. Whether a fake is a stub or a mock depends\
+  on how it's used in the current test. If it's used to check an interaction (asserted against), it's a mock object.
+
+how:->
+A Mock is just testing behaviour, making sure certain methods are called. A Stub is a testable version (per se) of a particular
+object.
+Mock is like actually stepping into the method and making sure everything inside is correct before returning the correct value.
+
+https://semaphoreci.com/community/tutorials/mocking-in-ruby-with-minitest\
+
+2) what Shoulda Matchers :-> is a Ruby testing gem, that provides RSpec- and Minitest-compatible one-liners that test common Rails functionality.
+                    These tests would otherwise be much longer, more complex, and error-prone.
+
+3) before do block:
+            https://relishapp.com/rspec/rspec-core/v/2-2/docs/hooks/before-and-after-hooks
